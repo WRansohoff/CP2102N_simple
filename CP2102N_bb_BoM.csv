@@ -1,0 +1,14 @@
+Part ID,Part type,Part size (Imperial),Part value,Example Digikey Item(s),Cost (qty: x),Comment
+"C1, C4",Capacitor,0805,4.7 μF,https://www.digikey.com/short/pdb9mj,$0.26,
+"C2, C3",Capacitor,0603,100 nF,https://www.digikey.com/short/pdb948,$0.20,
+D1,TVS Diode Network,SOT-143-4,SP0503,https://www.digikey.com/short/pdhfqd,$0.82,3-in-1 TVS diodes for USB data line filtering. These diodes should protect the two differential data lines and the positive power line.
+"D2, D3",LED,0805,Any Colors,"https://www.digikey.com/short/pdb9m9
+https://www.digikey.com/short/pdb9hq",$0.34,"""Transmit"" and ""receive"" LEDs - use whatever colors you prefer. D2 is ""receive"", D3 is ""transmit"". It's probably a good idea to use different colors."
+J1,USB Connector,Micro-B Socket,N/A,https://www.digikey.com/short/pdhw81,$2.07,"Micro-USB connector for battery charging and USB communication. I'm still working through a reel of cheap-o micro-B sockets that I ordered awhile ago, but they seem to fit the ""Wuerth_629105150521"" footprint in KiCAD."
+J2,Pin Header,"0.1""",1x4,https://www.digikey.com/short/pdhw3q,$0.13,"Main UART header: ""+3.3V"", ""RX"", ""TX"", and ""Ground""."
+"J3, J4",Pin Header,"0.1""",1x6,https://www.digikey.com/short/pdb983,$0.32,Headers for other USART signals.
+R1,Resistor,0805,22.1 KΩ (1%),https://www.digikey.com/short/pdb9zz,$0.10,One of two resistors used in a voltage divider required by the internal voltage regulator.
+R2,Resistor,0805,47.5 KΩ (1%),https://www.digikey.com/short/pdb9zh,$0.10,One of two resistors used in a voltage divider required by the internal voltage regulator.
+"R3, R4, R5",Resistor,0805,1 KΩ,https://www.digikey.com/short/pdb9p1,$0.20,"R3 is the reset pin's pull-up resistor. R4 and R5 are current-limiting resistors for the ""transmit"" and ""receive"" LEDs."
+U1,USB / Serial Bridge,QFN-24 (4x4mm),CP2102N-A01,https://www.digikey.com/short/pdb9qt,$1.35,The main USB / UART bridge chip.
+Total:,,,,,$5.89,
