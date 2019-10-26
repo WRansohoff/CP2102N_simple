@@ -9,3 +9,10 @@ The other USART signals provided by the `CP2102N` are also broken out on two row
 This is the second revision of a design that I've had some success with. I've only tested the TX / RX signals, but those seem to work fine.
 
 I'm still waiting to receive boards with this actual design, though, so you should still think of this board as untested for now.
+
+# Schematic and Board Renders
+
+![Schematic](renders/CP2102N_schematic.png)
+
+![Board Top](renders/board_top.png)
+![Board Bottom](renders/board_bot.png)
